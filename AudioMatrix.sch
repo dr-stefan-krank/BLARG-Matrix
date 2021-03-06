@@ -297,7 +297,7 @@ P 5975 3425
 F 0 "U5" H 5725 3325 50  0000 C CNN
 F 1 "MT8816AE1" V 6025 2175 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 5975 3425 50  0001 C CNN
-F 3 "" H 5975 3425 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Zarlink/MT8816AE.pdf" H 5975 3425 50  0001 C CNN
 	1    5975 3425
 	1    0    0    -1  
 $EndComp
@@ -2902,277 +2902,6 @@ Wire Wire Line
 Wire Wire Line
 	5175 5225 5175 5525
 $Comp
-L Device:LED D2
-U 1 1 613AD5EF
-P 7525 3750
-F 0 "D2" H 7600 3850 50  0000 R CNN
-F 1 "LED_R" H 7650 3625 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 3750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 7525 3750 50  0001 C CNN
-F 4 "C2286" V 7525 3750 50  0001 C CNN "LCSC"
-	1    7525 3750
-	-1   0    0    1   
-$EndComp
-Text Label 7025 3750 0    50   ~ 0
-AX0
-$Comp
-L power:GND #PWR035
-U 1 1 615EACB9
-P 7675 3750
-F 0 "#PWR035" H 7675 3500 50  0001 C CNN
-F 1 "GND" H 7825 3675 50  0000 C CNN
-F 2 "" H 7675 3750 50  0001 C CNN
-F 3 "" H 7675 3750 50  0001 C CNN
-	1    7675 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R36
-U 1 1 6163F3AA
-P 7275 3750
-F 0 "R36" V 7200 3725 50  0000 L CNN
-F 1 "510" V 7350 3675 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 3750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 3750 50  0001 C CNN
-F 4 " C23193" H 7275 3750 50  0001 C CNN "LCSC"
-	1    7275 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7175 3750 7025 3750
-$Comp
-L Device:LED D6
-U 1 1 616E2365
-P 7525 5175
-F 0 "D6" H 7550 5275 50  0000 C CNN
-F 1 "LED_G" H 7450 5050 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 5175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 7525 5175 50  0001 C CNN
-F 4 "C72043" V 7525 5175 50  0001 C CNN "LCSC"
-	1    7525 5175
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 6191D9AE
-P 7525 4100
-F 0 "D3" H 7600 4200 50  0000 R CNN
-F 1 "LED_R" H 7650 3975 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 4100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 7525 4100 50  0001 C CNN
-F 4 "C2286" V 7525 4100 50  0001 C CNN "LCSC"
-	1    7525 4100
-	-1   0    0    1   
-$EndComp
-Text Label 7025 4100 0    50   ~ 0
-AX1
-$Comp
-L power:GND #PWR036
-U 1 1 6191D9B5
-P 7675 4100
-F 0 "#PWR036" H 7675 3850 50  0001 C CNN
-F 1 "GND" H 7825 4025 50  0000 C CNN
-F 2 "" H 7675 4100 50  0001 C CNN
-F 3 "" H 7675 4100 50  0001 C CNN
-	1    7675 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R37
-U 1 1 6191D9BC
-P 7275 4100
-F 0 "R37" V 7200 4075 50  0000 L CNN
-F 1 "510" V 7350 4025 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 4100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 4100 50  0001 C CNN
-F 4 " C23193" H 7275 4100 50  0001 C CNN "LCSC"
-	1    7275 4100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7175 4100 7025 4100
-$Comp
-L Device:LED D4
-U 1 1 6196F964
-P 7525 4450
-F 0 "D4" H 7600 4550 50  0000 R CNN
-F 1 "LED_R" H 7650 4325 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 4450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 7525 4450 50  0001 C CNN
-F 4 "C2286" V 7525 4450 50  0001 C CNN "LCSC"
-	1    7525 4450
-	-1   0    0    1   
-$EndComp
-Text Label 7025 4450 0    50   ~ 0
-AX2
-$Comp
-L power:GND #PWR037
-U 1 1 6196F96B
-P 7675 4450
-F 0 "#PWR037" H 7675 4200 50  0001 C CNN
-F 1 "GND" H 7825 4375 50  0000 C CNN
-F 2 "" H 7675 4450 50  0001 C CNN
-F 3 "" H 7675 4450 50  0001 C CNN
-	1    7675 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R38
-U 1 1 6196F972
-P 7275 4450
-F 0 "R38" V 7200 4425 50  0000 L CNN
-F 1 "510" V 7350 4375 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 4450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 4450 50  0001 C CNN
-F 4 " C23193" H 7275 4450 50  0001 C CNN "LCSC"
-	1    7275 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 619C1CFD
-P 7525 4825
-F 0 "D5" H 7600 4925 50  0000 R CNN
-F 1 "LED_R" H 7650 4700 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 4825 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 7525 4825 50  0001 C CNN
-F 4 "C2286" V 7525 4825 50  0001 C CNN "LCSC"
-	1    7525 4825
-	-1   0    0    1   
-$EndComp
-Text Label 7025 4825 0    50   ~ 0
-AX3
-$Comp
-L power:GND #PWR038
-U 1 1 619C1D04
-P 7675 4825
-F 0 "#PWR038" H 7675 4575 50  0001 C CNN
-F 1 "GND" H 7825 4750 50  0000 C CNN
-F 2 "" H 7675 4825 50  0001 C CNN
-F 3 "" H 7675 4825 50  0001 C CNN
-	1    7675 4825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R39
-U 1 1 619C1D0B
-P 7275 4825
-F 0 "R39" V 7200 4800 50  0000 L CNN
-F 1 "510" V 7350 4750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 4825 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 4825 50  0001 C CNN
-F 4 " C23193" H 7275 4825 50  0001 C CNN "LCSC"
-	1    7275 4825
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7175 4825 7025 4825
-Text Label 7025 5175 0    50   ~ 0
-AY0
-$Comp
-L power:GND #PWR039
-U 1 1 61A146C6
-P 7675 5175
-F 0 "#PWR039" H 7675 4925 50  0001 C CNN
-F 1 "GND" H 7825 5100 50  0000 C CNN
-F 2 "" H 7675 5175 50  0001 C CNN
-F 3 "" H 7675 5175 50  0001 C CNN
-	1    7675 5175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R40
-U 1 1 61A146CD
-P 7275 5175
-F 0 "R40" V 7200 5150 50  0000 L CNN
-F 1 "510" V 7350 5100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 5175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 5175 50  0001 C CNN
-F 4 " C23193" H 7275 5175 50  0001 C CNN "LCSC"
-	1    7275 5175
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7175 5175 7025 5175
-$Comp
-L Device:LED D7
-U 1 1 61B0F000
-P 7525 5525
-F 0 "D7" H 7600 5625 50  0000 R CNN
-F 1 "LED_G" H 7650 5400 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 5525 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 7525 5525 50  0001 C CNN
-F 4 "C72043" V 7525 5525 50  0001 C CNN "LCSC"
-	1    7525 5525
-	-1   0    0    1   
-$EndComp
-Text Label 7025 5525 0    50   ~ 0
-AY1
-$Comp
-L power:GND #PWR040
-U 1 1 61B0F007
-P 7675 5525
-F 0 "#PWR040" H 7675 5275 50  0001 C CNN
-F 1 "GND" H 7825 5450 50  0000 C CNN
-F 2 "" H 7675 5525 50  0001 C CNN
-F 3 "" H 7675 5525 50  0001 C CNN
-	1    7675 5525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R41
-U 1 1 61B0F00E
-P 7275 5525
-F 0 "R41" V 7200 5500 50  0000 L CNN
-F 1 "510" V 7350 5450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 5525 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 5525 50  0001 C CNN
-F 4 " C23193" H 7275 5525 50  0001 C CNN "LCSC"
-	1    7275 5525
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7175 5525 7025 5525
-$Comp
-L Device:LED D8
-U 1 1 61B62ADC
-P 7525 5875
-F 0 "D8" H 7600 5975 50  0000 R CNN
-F 1 "LED_G" H 7650 5750 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7525 5875 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 7525 5875 50  0001 C CNN
-F 4 "C72043" V 7525 5875 50  0001 C CNN "LCSC"
-	1    7525 5875
-	-1   0    0    1   
-$EndComp
-Text Label 7025 5875 0    50   ~ 0
-AY2
-$Comp
-L power:GND #PWR041
-U 1 1 61B62AE3
-P 7675 5875
-F 0 "#PWR041" H 7675 5625 50  0001 C CNN
-F 1 "GND" H 7825 5800 50  0000 C CNN
-F 2 "" H 7675 5875 50  0001 C CNN
-F 3 "" H 7675 5875 50  0001 C CNN
-	1    7675 5875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R42
-U 1 1 61B62AEA
-P 7275 5875
-F 0 "R42" V 7200 5850 50  0000 L CNN
-F 1 "510" V 7350 5800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7275 5875 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5100T5E_C23193.pdf" H 7275 5875 50  0001 C CNN
-F 4 " C23193" H 7275 5875 50  0001 C CNN "LCSC"
-	1    7275 5875
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7175 5875 7025 5875
-$Comp
 L power:GND #PWR049
 U 1 1 61305E3C
 P 10850 4900
@@ -3264,8 +2993,6 @@ Wire Wire Line
 	750  1400 1350 1400
 Wire Wire Line
 	750  1250 1350 1250
-Wire Wire Line
-	7175 4450 7025 4450
 Text Label 6725 4275 2    50   ~ 0
 IN16
 Text Label 6725 4175 2    50   ~ 0
@@ -3401,14 +3128,6 @@ Wire Notes Line
 Wire Notes Line
 	6425 525  6425 3350
 Wire Notes Line
-	7975 3400 6875 3400
-Wire Notes Line
-	6875 3400 6875 6050
-Wire Notes Line
-	6875 6050 7975 6050
-Wire Notes Line
-	7975 6050 7975 3400
-Wire Notes Line
 	8025 3400 8025 4125
 Wire Notes Line
 	8025 4125 9650 4125
@@ -3418,8 +3137,6 @@ Wire Notes Line
 	9650 3400 8025 3400
 Text Notes 8050 3525 0    71   ~ 0
 Power Split Digital/Analog
-Text Notes 6900 3525 0    71   ~ 0
-Matrix Status
 Text Notes 4625 3525 0    71   ~ 0
 Audio Matrix
 Text Notes 4625 650  0    71   ~ 0
