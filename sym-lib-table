@@ -3,4 +3,5 @@
   (lib (name ESP32-DEVKITC)(type Legacy)(uri "${KIPRJMOD}/components/ESP32 DEVKITC/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
   (lib (name PT2258)(type Legacy)(uri ${KIPRJMOD}/components/PT2258/PT2258.lib)(options "")(descr ""))
   (lib (name TPS60403DBVR)(type Legacy)(uri ${KIPRJMOD}/components/TPS60403DBVR/TPS60403DBVR.lib)(options "")(descr ""))
+  (lib (name TCA6416APWR)(type Legacy)(uri ${KIPRJMOD}/components/TCA6416APWR/TCA6416APWR.lib)(options "")(descr ""))
 )

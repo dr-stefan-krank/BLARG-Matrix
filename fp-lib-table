@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name MODULE_ESP32-DEVKITC-32D)(type KiCad)(uri "${KIPRJMOD}/components/ESP32 DEVKITC")(options "")(descr ""))
   (lib (name SOT95P280X145-5N)(type KiCad)(uri ${KIPRJMOD}/components/TPS60403DBVR)(options "")(descr ""))
+  (lib (name SOP65P640X120-24N)(type KiCad)(uri ${KIPRJMOD}/components/TCA6416APWR)(options "")(descr ""))
 )

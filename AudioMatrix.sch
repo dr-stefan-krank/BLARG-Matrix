@@ -2562,8 +2562,6 @@ F 3 "~" H 6600 2825 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6800 2725 6800 925 
-Wire Wire Line
 	6800 925  6925 925 
 Connection ~ 7150 925 
 Wire Wire Line
@@ -2623,85 +2621,23 @@ Wire Wire Line
 Connection ~ 7850 2725
 Wire Wire Line
 	7850 2725 8125 2725
-$Comp
-L Interface_Expansion:PCA9555PW U4
-U 1 1 6044B067
-P 5400 1850
-F 0 "U4" H 5050 2800 50  0000 C CNN
-F 1 "PCA9555PW" H 5250 1800 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5400 1850 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf" H 5400 1850 50  0001 C CNN
-F 4 "C128392" H 5400 1850 50  0001 C CNN "LCSC"
-	1    5400 1850
-	1    0    0    -1  
-$EndComp
-Text Label 4700 1050 0    50   ~ 0
+Text Label 4650 -1275 0    50   ~ 0
 SCL
-Text Label 4700 1150 0    50   ~ 0
+Text Label 4650 -175 0    50   ~ 0
 SDA
-NoConn ~ 4900 1350
 Wire Wire Line
-	4700 1050 4900 1050
-Wire Wire Line
-	4700 1150 4900 1150
-Wire Wire Line
-	4900 2450 4900 2550
-Wire Wire Line
-	4900 2950 5400 2950
-Wire Wire Line
-	5400 2950 5400 2850
-Connection ~ 4900 2550
-Wire Wire Line
-	4900 2550 4900 2650
-Connection ~ 4900 2650
-Wire Wire Line
-	4900 2650 4900 2950
-Wire Wire Line
-	5400 2950 5400 3050
-Connection ~ 5400 2950
-$Comp
-L power:GND #PWR029
-U 1 1 6076762A
-P 5400 3050
-F 0 "#PWR029" H 5400 2800 50  0001 C CNN
-F 1 "GND" H 5405 2877 50  0000 C CNN
-F 2 "" H 5400 3050 50  0001 C CNN
-F 3 "" H 5400 3050 50  0001 C CNN
-	1    5400 3050
-	1    0    0    -1  
-$EndComp
-Text Label 6800 925  0    50   ~ 0
-3V3
-Wire Wire Line
-	5400 850  5400 700 
-Wire Wire Line
-	5900 700  6200 700 
-$Comp
-L power:GND #PWR031
-U 1 1 607FD8C1
-P 6200 700
-F 0 "#PWR031" H 6200 450 50  0001 C CNN
-F 1 "GND" H 6205 527 50  0000 C CNN
-F 2 "" H 6200 700 50  0001 C CNN
-F 3 "" H 6200 700 50  0001 C CNN
-	1    6200 700 
-	1    0    0    -1  
-$EndComp
-Text Label 5400 700  0    50   ~ 0
-3V3
-Wire Wire Line
-	5400 700  5700 700 
+	4650 -1275 4850 -1275
 $Comp
 L Device:C_Small C42
 U 1 1 60767B66
-P 5800 700
-F 0 "C42" V 5750 800 50  0000 C CNN
-F 1 "1μF" V 5750 600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5800 700 50  0001 C CNN
-F 3 "~" H 5800 700 50  0001 C CNN
-F 4 "C28323" V 5800 700 50  0001 C CNN "LCSC"
-	1    5800 700 
-	0    1    1    0   
+P 6850 -1500
+F 0 "C42" H 6925 -1425 50  0000 C CNN
+F 1 "1μF" H 6925 -1575 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 -1500 50  0001 C CNN
+F 3 "~" H 6850 -1500 50  0001 C CNN
+F 4 "C28323" V 6850 -1500 50  0001 C CNN "LCSC"
+	1    6850 -1500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x16_Male J8
@@ -2715,68 +2651,36 @@ F 3 "~" H 10975 1575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5900 1050 6250 1050
+	6250 -975 6500 -975
 Wire Wire Line
-	5900 1150 6250 1150
+	6250 -875 6500 -875
 Wire Wire Line
-	5900 1250 6250 1250
+	6250 -775 6500 -775
 Wire Wire Line
-	5900 1350 6250 1350
+	6250 -675 6500 -675
 Wire Wire Line
-	5900 1450 6250 1450
+	6250 -575 6500 -575
 Wire Wire Line
-	5900 1550 6250 1550
+	6250 -475 6500 -475
 Wire Wire Line
-	5900 1650 6250 1650
-Wire Wire Line
-	5900 1750 6250 1750
-Wire Wire Line
-	5900 2050 6250 2050
-Wire Wire Line
-	5900 2150 6250 2150
-Wire Wire Line
-	5900 2250 6250 2250
-Wire Wire Line
-	5900 2350 6250 2350
-Wire Wire Line
-	5900 2450 6250 2450
-Wire Wire Line
-	5900 2550 6250 2550
-Wire Wire Line
-	5900 2650 6250 2650
-Text Label 6250 1050 2    50   ~ 0
-IO0_0
-Text Label 6250 1150 2    50   ~ 0
-IO0_1
-Text Label 6250 1250 2    50   ~ 0
-IO0_2
-Text Label 6250 1350 2    50   ~ 0
-IO0_3
-Text Label 6250 1450 2    50   ~ 0
-IO0_4
-Text Label 6250 1550 2    50   ~ 0
-IO0_5
-Text Label 6250 1650 2    50   ~ 0
-IO0_6
-Text Label 6250 1750 2    50   ~ 0
-IO0_7
-Text Label 6250 2050 2    50   ~ 0
+	6250 -375 6500 -375
+Text Label 6500 -975 2    50   ~ 0
 IO1_1
-Text Label 6250 2150 2    50   ~ 0
+Text Label 6500 -875 2    50   ~ 0
 IO1_2
-Text Label 6250 2250 2    50   ~ 0
+Text Label 6500 -775 2    50   ~ 0
 IO1_3
-Text Label 6250 2350 2    50   ~ 0
+Text Label 6500 -675 2    50   ~ 0
 IO1_4
-Text Label 6250 2450 2    50   ~ 0
+Text Label 6500 -575 2    50   ~ 0
 IO1_5
-Text Label 6250 2550 2    50   ~ 0
+Text Label 6500 -475 2    50   ~ 0
 IO1_6
-Text Label 6250 2650 2    50   ~ 0
+Text Label 6500 -375 2    50   ~ 0
 IO1_7
 Wire Wire Line
-	5900 1950 6250 1950
-Text Label 6250 1950 2    50   ~ 0
+	6250 -1075 6500 -1075
+Text Label 6500 -1075 2    50   ~ 0
 IO1_0
 Text Label 10425 1375 0    50   ~ 0
 IO1_1
@@ -3278,4 +3182,179 @@ F 3 "" H 10675 5550 50  0001 C CNN
 	1    10675 5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 6076762A
+P 6250 25
+F 0 "#PWR029" H 6250 -225 50  0001 C CNN
+F 1 "GND" H 6255 -148 50  0000 C CNN
+F 2 "" H 6250 25  50  0001 C CNN
+F 3 "" H 6250 25  50  0001 C CNN
+	1    6250 25  
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 -75  6250 25  
+Text Label 4600 -375 0    50   ~ 0
+IO0_7
+Text Label 4625 -475 0    50   ~ 0
+IO0_6
+Text Label 4625 -575 0    50   ~ 0
+IO0_5
+Text Label 4625 -675 0    50   ~ 0
+IO0_4
+Text Label 4625 -775 0    50   ~ 0
+IO0_3
+Text Label 4625 -875 0    50   ~ 0
+IO0_2
+Text Label 4625 -975 0    50   ~ 0
+IO0_1
+Wire Wire Line
+	4850 -375 4600 -375
+Wire Wire Line
+	4850 -475 4625 -475
+Wire Wire Line
+	4850 -575 4625 -575
+Wire Wire Line
+	4850 -675 4625 -675
+Wire Wire Line
+	4850 -775 4625 -775
+Wire Wire Line
+	4850 -875 4625 -875
+Wire Wire Line
+	4850 -975 4625 -975
+Wire Wire Line
+	4850 -1075 4625 -1075
+Text Label 4625 -1075 0    50   ~ 0
+IO0_0
+$Comp
+L power:+5V #PWR0101
+U 1 1 6078C699
+P 6250 -1800
+F 0 "#PWR0101" H 6250 -1950 50  0001 C CNN
+F 1 "+5V" H 6265 -1627 50  0000 C CNN
+F 2 "" H 6250 -1800 50  0001 C CNN
+F 3 "" H 6250 -1800 50  0001 C CNN
+	1    6250 -1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60E6AE41
+P 4450 -1325
+F 0 "#PWR0102" H 4450 -1575 50  0001 C CNN
+F 1 "GND" H 4455 -1498 50  0000 C CNN
+F 2 "" H 4450 -1325 50  0001 C CNN
+F 3 "" H 4450 -1325 50  0001 C CNN
+	1    4450 -1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 -1375 4450 -1325
+$Comp
+L Device:R_Small R36
+U 1 1 60EC0149
+P 4800 -1575
+F 0 "R36" H 4950 -1525 50  0000 C CNN
+F 1 "100k" H 4925 -1625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 -1575 50  0001 C CNN
+F 3 "~" H 4800 -1575 50  0001 C CNN
+	1    4800 -1575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 -1475 4800 -1475
+Wire Wire Line
+	6250 -1800 6250 -1775
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 608892BC
+P 6850 -1850
+F 0 "#PWR0103" H 6850 -2000 50  0001 C CNN
+F 1 "+3V3" H 6865 -1677 50  0000 C CNN
+F 2 "" H 6850 -1850 50  0001 C CNN
+F 3 "" H 6850 -1850 50  0001 C CNN
+	1    6850 -1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 -1475 6275 -1475
+$Comp
+L Device:R_Small R37
+U 1 1 61074567
+P 6375 -1475
+F 0 "R37" V 6300 -1450 50  0000 C CNN
+F 1 "100k" V 6450 -1475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6375 -1475 50  0001 C CNN
+F 3 "~" H 6375 -1475 50  0001 C CNN
+	1    6375 -1475
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6850 -1400 6850 -1350
+$Comp
+L power:GND #PWR0104
+U 1 1 61226E49
+P 6850 -1350
+F 0 "#PWR0104" H 6850 -1600 50  0001 C CNN
+F 1 "GND" H 6855 -1523 50  0000 C CNN
+F 2 "" H 6850 -1350 50  0001 C CNN
+F 3 "" H 6850 -1350 50  0001 C CNN
+	1    6850 -1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 -1375 4850 -1375
+Wire Wire Line
+	4650 -175 4850 -175
+$Comp
+L TCA6416APWR:TCA6416APWR U4
+U 1 1 60491DAB
+P 5550 -875
+F 0 "U4" H 5100 175 50  0000 C CNN
+F 1 "TCA6416APWR" H 5700 -475 50  0000 C CNN
+F 2 "SOP65P640X120-24N" H 5550 -875 50  0001 L BNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-TCA6416APWR_C130203.pdf" H 5550 -875 50  0001 L BNN
+F 4 "C130203" H 5550 -875 50  0001 C CNN "LCSC"
+	1    5550 -875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6525 -1475 6525 -1675
+Wire Wire Line
+	6525 -1475 6475 -1475
+Wire Wire Line
+	6525 -1675 6525 -2050
+Wire Wire Line
+	6525 -2050 4800 -2050
+Wire Wire Line
+	4800 -2050 4800 -1675
+Connection ~ 6525 -1675
+Wire Wire Line
+	6250 -1675 6525 -1675
+Wire Wire Line
+	6850 -1600 6850 -1675
+Wire Wire Line
+	6525 -1675 6850 -1675
+Connection ~ 6850 -1675
+Wire Wire Line
+	6850 -1675 6850 -1850
+$Comp
+L power:+3V3 #PWR031
+U 1 1 61A5DAD9
+P 6575 2425
+F 0 "#PWR031" H 6575 2275 50  0001 C CNN
+F 1 "+3V3" H 6590 2598 50  0000 C CNN
+F 2 "" H 6575 2425 50  0001 C CNN
+F 3 "" H 6575 2425 50  0001 C CNN
+	1    6575 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 925  6800 2425
+Connection ~ 6800 2425
+Wire Wire Line
+	6800 2425 6800 2725
+Wire Wire Line
+	6575 2425 6800 2425
 $EndSCHEMATC
