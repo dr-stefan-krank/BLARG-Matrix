@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+*.csv
+
+fp-info-cache
+
+*.kicad_pcb-bak
+
+*.sch-bak
