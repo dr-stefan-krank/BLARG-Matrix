@@ -888,9 +888,9 @@ Wire Wire Line
 	750  1850 1350 1850
 Wire Wire Line
 	750  2000 1350 2000
-Text Label 750  3450 0    50   ~ 0
+Text Label 750  4200 0    50   ~ 0
 IN5
-Text Label 750  3600 0    50   ~ 0
+Text Label 750  4050 0    50   ~ 0
 IN6
 Text Label 1600 4350 0    50   ~ 0
 SCL
@@ -1297,13 +1297,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x12_Male J3
 U 1 1 61857BD2
-P 4425 3950
-F 0 "J3" H 4375 3250 50  0000 L CNN
-F 1 "AMP2" H 4425 4550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4425 3950 50  0001 C CNN
-F 3 "~" H 4425 3950 50  0001 C CNN
-	1    4425 3950
-	-1   0    0    -1  
+P 4425 4050
+F 0 "J3" H 4375 3350 50  0000 L CNN
+F 1 "AMP2" H 4425 4650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4425 4050 50  0001 C CNN
+F 3 "~" H 4425 4050 50  0001 C CNN
+	1    4425 4050
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	750  3450 1350 3450
@@ -1317,17 +1317,17 @@ Wire Wire Line
 	750  4050 1350 4050
 Wire Wire Line
 	750  4200 1350 4200
-Text Label 750  3750 0    50   ~ 0
-IN7
 Text Label 750  3900 0    50   ~ 0
+IN7
+Text Label 750  3750 0    50   ~ 0
 IN8
-Text Label 750  4050 0    50   ~ 0
+Text Label 750  3600 0    50   ~ 0
 IN9
-Text Label 750  4200 0    50   ~ 0
+Text Label 750  3450 0    50   ~ 0
 IN10
-Text Label 750  1250 0    50   ~ 0
+Text Label 750  2000 0    50   ~ 0
 IN11
-Text Label 750  1400 0    50   ~ 0
+Text Label 750  1850 0    50   ~ 0
 IN12
 Text Label 1450 6400 0    50   ~ 0
 SCL
@@ -1648,13 +1648,13 @@ Wire Wire Line
 	600  5800 1200 5800
 Wire Wire Line
 	600  5950 1200 5950
-Text Label 750  1550 0    50   ~ 0
-IN13
 Text Label 750  1700 0    50   ~ 0
+IN13
+Text Label 750  1550 0    50   ~ 0
 IN14
-Text Label 750  1850 0    50   ~ 0
+Text Label 750  1400 0    50   ~ 0
 IN15
-Text Label 750  2000 0    50   ~ 0
+Text Label 750  1250 0    50   ~ 0
 IN16
 Wire Wire Line
 	800  6000 800  6500
@@ -2407,13 +2407,13 @@ Connection ~ 1350 1700
 Connection ~ 1350 1550
 Connection ~ 1350 1400
 Connection ~ 1350 1250
-Text Label 600  5950 0    50   ~ 0
-IN4
-Text Label 600  5800 0    50   ~ 0
-IN3
-Text Label 600  5650 0    50   ~ 0
-IN2
 Text Label 600  5500 0    50   ~ 0
+IN4
+Text Label 600  5650 0    50   ~ 0
+IN3
+Text Label 600  5800 0    50   ~ 0
+IN2
+Text Label 600  5950 0    50   ~ 0
 IN1
 Wire Wire Line
 	750  1700 1350 1700
@@ -2742,19 +2742,19 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x12_Male J2
 U 1 1 60CE6482
-P 4425 1750
-F 0 "J2" H 4375 1050 50  0000 L CNN
-F 1 "AMP1" H 4425 2350 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4425 1750 50  0001 C CNN
-F 3 "~" H 4425 1750 50  0001 C CNN
-	1    4425 1750
-	-1   0    0    -1  
+P 4425 1850
+F 0 "J2" H 4375 1150 50  0000 L CNN
+F 1 "AMP1" H 4425 2450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4425 1850 50  0001 C CNN
+F 3 "~" H 4425 1850 50  0001 C CNN
+	1    4425 1850
+	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0105
 U 1 1 637AE914
 P 4050 4650
-F 0 "#PWR?" H 4050 4400 50  0001 C CNN
+F 0 "#PWR0105" H 4050 4400 50  0001 C CNN
 F 1 "GNDA" H 4055 4477 50  0000 C CNN
 F 2 "" H 4050 4650 50  0001 C CNN
 F 3 "" H 4050 4650 50  0001 C CNN
@@ -2914,10 +2914,10 @@ Wire Wire Line
 Wire Wire Line
 	4225 3875 4225 3950
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0106
 U 1 1 63B33A15
 P 3900 6325
-F 0 "#PWR?" H 3900 6075 50  0001 C CNN
+F 0 "#PWR0106" H 3900 6075 50  0001 C CNN
 F 1 "GNDA" H 3905 6152 50  0000 C CNN
 F 2 "" H 3900 6325 50  0001 C CNN
 F 3 "" H 3900 6325 50  0001 C CNN
@@ -2998,21 +2998,8 @@ Wire Wire Line
 	2800 5800 3025 5800
 Wire Wire Line
 	3400 6000 3500 6000
-$Comp
-L Connector:Conn_01x08_Male J1
-U 1 1 618853C0
-P 4425 5800
-F 0 "J1" H 4375 5250 50  0000 L CNN
-F 1 "AMP3" H 4425 6200 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4425 5800 50  0001 C CNN
-F 3 "~" H 4425 5800 50  0001 C CNN
-	1    4425 5800
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 5500 4225 5500
-Wire Wire Line
-	3900 5600 4225 5600
 Wire Wire Line
 	4000 5700 4225 5700
 Wire Wire Line
@@ -3384,4 +3371,17 @@ Wire Notes Line
 	6400 3350 7100 3350
 Wire Notes Line
 	7100 525  7100 3350
+Wire Wire Line
+	3900 5600 4225 5600
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 618853C0
+P 4425 5900
+F 0 "J1" H 4375 5350 50  0000 L CNN
+F 1 "AMP3" H 4425 6300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4425 5900 50  0001 C CNN
+F 3 "~" H 4425 5900 50  0001 C CNN
+	1    4425 5900
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
